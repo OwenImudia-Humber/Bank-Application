@@ -1,7 +1,7 @@
 # Bank-Application
 A simple command-line bank application built in Python. Users can log in using a 4-digit PIN, check their balance, make deposits or withdrawals, and exit securely. Includes input validation and limited PIN attempts.
 
-#🧠 Features
+🧠 Features
 
 ✅ 3 login attempts using a 4-digit PIN before exit
 ✅ Displays balance with two decimal places
@@ -12,7 +12,7 @@ A simple command-line bank application built in Python. Users can log in using a
 ✅ Built entirely using Python functions
 ✅ Handles invalid inputs gracefully
 
-#🧮 Menu Options
+🧮 Menu Options
 
 Display Balance — Shows your current account balance.
 
@@ -22,7 +22,7 @@ Make a Deposit — Choose a preset or custom amount to add to your balance.
 
 Exit — Ends the program.
 
-#🔐 Login System
+🔐 Login System
 
 You start by entering a 4-digit PIN.
 
@@ -30,7 +30,7 @@ You get 3 attempts before the program exits automatically.
 
 Once authenticated, you’re welcomed into the main menu.
 
-#🖥️ Example Run
+🖥️ Example Run
 -----WELCOME TO DUB BANK-----
 Enter a 4-digit PIN: 1234
 Welcome in :)
@@ -53,27 +53,31 @@ What choice would you like to make: 2
 What would you like to do? 1
 New balance: $480.00
 
-#⚙️ How to Run
+⚙️ How to Run
 
 Make sure you have Python 3 installed.
 
 Clone this repository:
 
-git clone https://github.com/YOUR-USERNAME/bank-application.git
+git clone (https://github.com/OwenImudia-Humber/Bank-Application.git)
 
 
 Navigate to the project folder:
 
-cd bank-application
+cd Mini-P_Owenimudia.py 
 
 
 Run the program:
 
-python bank_app.py
+python Mini-P_Owenimudia.py 
 
-#🧩 File Structure
-Mini-P_Owenimudia.py      # Main application code
-README.md        # Project documentation
+🧩 File Structure
+📦 Lab-Six/
+ ┣ 📜 Mini-P_OwenImudia.py     # Main Python file
+ ┣ 📁 .idea/                   # PyCharm config (optional to ignore)
+ ┣ 📜 .gitignore               # Files to exclude from Git tracking
+ ┣ 📜 README.md                # Project documentation
+
 
 📚 Skills Demonstrated
 
@@ -87,9 +91,7 @@ Simple user authentication logic
 
 Command-line UI design
 
-#🧑‍💻 Author
+🧑‍💻 Author
 
 Owen Imudia
 📧 Imudiaowen@gmail.com
-
-🎓 Humber College | Python Programming
